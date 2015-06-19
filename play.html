@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tetris</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<p id="topLeftGUIText"> Lines Cleared: 0 </p>
+	<table id="matrix"></table>
+	<div id="GUIControls" style="display:none">
+	<a href="#" id="ButtonUp"    onclick="fallingTetromino.rotate();    displayMatrix(); return false;">↑</a><br/>
+	<a href="#" id="ButtonLeft"  onclick="fallingTetromino.move(-1, 0); displayMatrix(); return false;">←</a>
+	<a href="#" id="ButtonDown"  onclick="fallingTetromino.move(0, 1);  displayMatrix(); return false;">↓</a>
+	<a href="#" id="ButtonRight" onclick="fallingTetromino.move(1, 0);  displayMatrix(); return false;">→</a>
+	</div>
+	<script src="tetris.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body
+{
+	background: black;
+	text-align: center;
+	padding: 0;
+	margin: 1px;
+}
+
+#topLeftGUIText
+{
+	position: absolute; /* Wow! */
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+	float: left;
+	margin: 15px;
+	font-size: 20px;
+}
+
+#matrix
+{
+	margin: auto;
+	border-collapse: collapse;
+	width: 50vh; /* 50 - x */
+	height: 100vh; /* 100 - 2x */
+	border: 1px solid;
+}
+
+#matrix td
+{
+	font-size: 100%;
+	font-family: Impact, Charcoal, sans-serif;
+	/* font-weight: bold; */
+	color: white;
+	border: 1px solid;
+	border-color: #227722;
+	width: 10%;
+	height: 5%;
+}
+
+#GUIControls a
+{
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+	padding: 0;
+	margin: 2px;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	width: 16.66vh; /* (50 - x) / 3 */
+	height: 10vh; /* x */
+}
+
+#GUIControls
+{
+	padding: 0;
+	margin: 0;
+}
